@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <router-link to="/home">back</router-link>
     <p>成员: 吉诺 孙畅 谭恩浩 郁文啸 周奕汐</p>
   </div>
 </template>

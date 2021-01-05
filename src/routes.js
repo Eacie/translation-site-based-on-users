@@ -1,6 +1,6 @@
-import Home from "./pages/Home.vue";
-import About from "./pages/About.vue";
-import Login from "./pages/Login.vue";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Login from "./pages/login/Login";
 
 export default [
   { path: "", redirect: "/home" },
