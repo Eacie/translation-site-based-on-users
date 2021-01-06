@@ -10,8 +10,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.app {
-  background-color: #ff00ff;
-}
+<style lang="less">
+@import "./style/common";
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div class="foot-down">
-    <span>@2021 雏雁</span>
-    <router-link to="/about">关于</router-link>
+    <div>@2021 雏雁</div>
+    <div>
+      <router-link to="/about">关于</router-link>
+    </div>
   </div>
 </template>
 
@@ -11,8 +13,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 .foot-down {
-  background-color: #ff00aa;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10px;
+  background-color: #d7d7d7;
+  padding: 30px;
 }
 </style>
