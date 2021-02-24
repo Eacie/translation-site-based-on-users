@@ -51,7 +51,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 │   ├── main.js                 // 程序启动代码
 │   ├── pages
 │   │   ├── About.vue           // 关于页面
-│   │   ├── Home.vue            // 首页页面
+│   │   ├── Index.vue            // 首页页面
 │   │   └── Login.vue           // 登录/注册页面
 │   └── routes.js               // 页面路由
 └── .gitignore                  // git忽略配置文件

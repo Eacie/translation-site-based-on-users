@@ -1,3 +1,15 @@
+import {
+  Button,
+  Col,
+  Input,
+  List,
+  Row,
+  Select,
+  Space,
+  Spin,
+  Tooltip,
+  BackTop,
+} from "ant-design-vue";
 import App from "./App.vue";
 import routes from "./routes";
 
@@ -11,6 +23,20 @@ const router = VueRouter.createRouter({
 });
 
 const app = Vue.createApp(App);
-app.use(router);
+
+app
+  .use(Col)
+  .use(Input)
+  .use(List)
+  .use(Row)
+  .use(BackTop)
+  .use(Button)
+  .use(Select)
+  .use(Space)
+  .use(Spin)
+  .use(Tooltip);
+
 app.use(less);
+app.use(router);
+
 app.mount("#app");

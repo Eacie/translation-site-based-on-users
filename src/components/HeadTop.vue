@@ -5,7 +5,7 @@
     </div>
     <div class="links">
       <div class="link">
-        <router-link to="/home">首页</router-link>
+        <router-link to="/index">首页</router-link>
       </div>
       <div class="link">
         <router-link to="/login" v-if="signedIn">登录/注册</router-link>
