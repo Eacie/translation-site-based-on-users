@@ -1,6 +1,8 @@
 import {
+  Avatar,
   Button,
   Col,
+  Form,
   Input,
   List,
   Row,
@@ -25,7 +27,9 @@ const router = VueRouter.createRouter({
 const app = Vue.createApp(App);
 
 app
+  .use(Avatar)
   .use(Col)
+  .use(Form)
   .use(Input)
   .use(List)
   .use(Row)

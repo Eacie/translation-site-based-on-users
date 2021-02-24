@@ -10,7 +10,7 @@
     <a-back-top :visibilityHeight="1000" />
 
     <head-top :signedIn="true">
-      <template v-slot:logo>
+      <template #logo>
         <router-link to="/index">Translate</router-link>
       </template>
     </head-top>
